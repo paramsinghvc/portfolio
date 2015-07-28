@@ -1,0 +1,401 @@
+@font-face {
+    font-family: HelveticaLight;
+    src: ../fonts/HelveticaNeue-Light.otf;
+}
+
+@font-face {
+    font-family: HelveticaThin;
+    src: ../fonts/HelveticaNeue-Thin.otf;
+}
+
+@font-face {
+    font-family: HelveticaUltraLight;
+    src: ../fonts/HelveticaNeue-UltraLight.otf;
+}
+
+a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.2px;
+}
+/* line 7, ../sass/style.scss */
+
+.top5 {
+    margin-top: 5px;
+}
+/* line 7, ../sass/style.scss */
+
+.top10 {
+    margin-top: 10px;
+}
+/* line 7, ../sass/style.scss */
+
+.top15 {
+    margin-top: 15px;
+}
+/* line 7, ../sass/style.scss */
+
+.top20 {
+    margin-top: 20px;
+}
+/* line 7, ../sass/style.scss */
+
+.top25 {
+    margin-top: 25px;
+}
+/* line 7, ../sass/style.scss */
+
+.top30 {
+    margin-top: 30px;
+}
+/* line 7, ../sass/style.scss */
+
+.top35 {
+    margin-top: 35px;
+}
+/* line 7, ../sass/style.scss */
+
+.top40 {
+    margin-top: 40px;
+}
+/* line 7, ../sass/style.scss */
+
+.top45 {
+    margin-top: 45px;
+}
+/* line 7, ../sass/style.scss */
+
+.top50 {
+    margin-top: 50px;
+}
+/* line 7, ../sass/style.scss */
+
+.top55 {
+    margin-top: 55px;
+}
+/* line 7, ../sass/style.scss */
+
+.top60 {
+    margin-top: 60px;
+}
+/* line 7, ../sass/style.scss */
+
+.top65 {
+    margin-top: 65px;
+}
+/* line 7, ../sass/style.scss */
+
+.top70 {
+    margin-top: 70px;
+}
+/* line 7, ../sass/style.scss */
+
+.top75 {
+    margin-top: 75px;
+}
+/* line 7, ../sass/style.scss */
+
+.top80 {
+    margin-top: 80px;
+}
+
+.top90 {
+    margin-top: 90px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom5 {
+    margin-bottom: 5px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom10 {
+    margin-bottom: 10px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom15 {
+    margin-bottom: 15px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom20 {
+    margin-bottom: 20px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom25 {
+    margin-bottom: 25px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom30 {
+    margin-bottom: 30px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom35 {
+    margin-bottom: 35px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom40 {
+    margin-bottom: 40px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom45 {
+    margin-bottom: 45px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom50 {
+    margin-bottom: 50px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom55 {
+    margin-bottom: 55px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom60 {
+    margin-bottom: 60px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom65 {
+    margin-bottom: 65px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom70 {
+    margin-bottom: 70px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom75 {
+    margin-bottom: 75px;
+}
+/* line 15, ../sass/style.scss */
+
+.bottom80 {
+    margin-bottom: 80px;
+}
+
+.bottom180{
+	margin-bottom: 180px;
+}
+
+body {
+    font-family: 'HelveticaNeue-Thin';
+    color: #fff;
+}
+
+#myPicture {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home {
+    background: url('../img/deskBlur.png') no-repeat center bottom fixed;
+    /*background-size: cover;*/
+}
+
+.about {
+    background: url('../img/desk1G.jpg') no-repeat right center;
+    /*background-size: cover;*/
+}
+
+.myName {
+    color: #fff;
+    font-family: 'HelveticaNeue-UltraLight';
+    letter-spacing: 2px;
+}
+
+#myPicture {
+    margin-top: 150px;
+}
+
+.info-me {
+    margin-top: 150px;
+}
+
+.info-me h1 {
+    text-align: right;
+}
+
+.about {
+    background: #1A2434;
+}
+
+.about h1,
+.skills h1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.skills h1 {
+    color: #000;
+}
+
+.about .description {
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 2.0;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.description {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.pill {
+    color: #fff;
+    background-color: rgb(36, 48, 64);
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 15px;
+    box-shadow: 0 0 12px #2c3e50;
+    float: left;
+    letter-spacing: 0.8px;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+.pill:hover {
+    
+    background-color: #2c3e50;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.grid-item {
+    margin-bottom: 5px;
+    /*padding: 0 !important;*/
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.grid-item img,
+#status {
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -ms-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+.is-loading {
+    background-color: #161712;
+    background-image: url('http://desandro.github.io/imagesloaded/assets/loading.gif');
+}
+
+.is-broken {
+    background-image: url('http://desandro.github.io/imagesloaded/assets/broken.png');
+    background-color: #be3730;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+.is-loading img,
+.is-broken img {
+    opacity: 0;
+}
+.cWrapper{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.cImage img{
+    width: 260px;
+}
+.cHeading{
+	font-size: 24px;
+}
+.cDescription{
+	font-size: 16px;
+}
+.contactRow img{
+	margin-right: 20px;
+}
+.contactRow span{
+	font-size: 18px;
+}
+div[class^="col"] {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
+
+@media only screen and (max-width: 480px) {
+    .info-me {
+        margin-top: 60px;
+    }
+    .info-me h1 {
+        text-align: center;
+    }
+    div[class^="col"] {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .info-me {
+        margin-top: 60px;
+    }
+    .info-me h1 {
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .info-me {
+        margin-top: 60px;
+    }
+    .info-me h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 959px) {}
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    div[class^="col"] {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    div[class^="col"] {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    /*default so you don't need this*/
+    
+    div[class^="col"] {
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+    }
+}
